@@ -55,11 +55,12 @@ So on this hardware the drift is confined to the LoRA path, does not depend on s
 - Cost of the workaround depends on tuning. On model A, with block sizes tuned per shape, `split_k=1` runs mixed 16-adapter traffic at 1.58 requests/s against 0.99 on default (+59%); tuned for speed with split-K on gives 1.63 (+65%) but is not repeatable. On model B, changing only `split_k` and keeping default block sizes cost 34% of adapter throughput.
 - `split_k=1` gives run-to-run repeatability for a request sent on its own. It does not give batch invariance: sent together, outputs still vary on both models. Batch-invariant mode does, at a larger cost (model B base traffic 9.30 → 2.69 requests/s).
 - The original report found `split_k=1` insufficient on GB10 with an NVFP4 checkpoint. We have not reproduced that setup, so there may be a second effect there that this does not explain.
+- The two GB10 reproductions above reach the same boundaries by a different route: base model stable, drift present with speculative decoding off. We have not tested the fp32 interior. `split_k=1` through a config file is a cheaper thing to try on that setup, and it would be useful to know whether it is enough there.
 
 **Caveats**
 
 - Model A's adapter is synthetic: seeded random values, not trained. Random weights push generation into unstable text, so a small numeric difference shows up within a few tokens; the trained adapter on model B drifts less often (5 to 12 of 16).
-- Adapter magnitude is not the cause on model A: weights ten times smaller (std 0.001) gave 15, 15, 15, 16 under default settings and 1, 1, 1, 1 with `split_k=1`.
+- A smaller adapter did not make divergence rarer on model A: weights ten times smaller (std 0.001) gave 15, 15, 15, 16 under default settings and 1, 1, 1, 1 with `split_k=1`.
 - Model A needs two extra `ignore` patterns for its embedding layers to load on 0.34.0. Weights are unchanged.
 - Prompt token counts differ slightly between 0.34.0 and the nightly for the same text (for example 6,524 and 6,537).
 
