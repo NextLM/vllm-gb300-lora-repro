@@ -1,0 +1,77 @@
+{
+  "target_prompt_tokens": 3072,
+  "target_output_tokens": 512,
+  "rounds": 12,
+  "mode": "ctx",
+  "workers": 16,
+  "models": [
+    "sql"
+  ],
+  "requests": 192,
+  "valid_requests": 192,
+  "failed_requests": 0,
+  "requests_with_retry": 0,
+  "errors_sample": [],
+  "wall_seconds": 33.233528891112655,
+  "requests_per_second": 5.777298000133379,
+  "predictions_per_second": 0.0,
+  "input_tokens": 589824,
+  "output_tokens": 98304,
+  "input_tokens_per_second": 17747.85945640974,
+  "output_tokens_per_second": 2957.97657606829,
+  "request_latency_seconds": {
+    "p50": 2.7685457189800218,
+    "p95": 2.7740890410961585,
+    "p99": 2.8489877513190733,
+    "mean": 2.7685916831457384,
+    "max": 2.8490181849338114,
+    "n": 192
+  },
+  "ttft_seconds": {
+    "p50": 0.3510198531439528,
+    "p95": 0.47900835062609987,
+    "p99": 0.5357237849454396,
+    "mean": 0.3563191595421813,
+    "max": 0.5360217918641865,
+    "n": 192
+  },
+  "mean_inter_token_latency_seconds_per_request": {
+    "p50": 0.004730873907972747,
+    "p95": 0.005236089612068444,
+    "p99": 0.005240096908405336,
+    "mean": 0.004720503097159227,
+    "max": 0.005290662804199291,
+    "n": 192
+  },
+  "inter_token_gap_seconds_pooled_chunks": {
+    "p50": 0.0043980129994452,
+    "p95": 0.004482748918235302,
+    "p99": 0.005620251363143325,
+    "mean": 0.004721758853260293,
+    "max": 0.17201302386820316,
+    "n": 97765
+  },
+  "prompt_tokens_per_request": {
+    "min": 3072,
+    "max": 3072
+  },
+  "completion_tokens_per_request": {
+    "min": 512,
+    "max": 512
+  },
+  "client_peak_requests_in_flight": 16,
+  "server_requests_running": {
+    "max": 16.0,
+    "fraction_of_samples_at_or_above_workers": 0.7941176470588235,
+    "samples": 34
+  },
+  "server_kv_cache_usage_fraction": {
+    "max": 0.0963959117805272,
+    "mean": 0.08319779767743571
+  },
+  "sustained_60s_windows": {
+    "full_windows": 0,
+    "requests_per_second_min_median_max": null,
+    "output_tokens_per_second_min_median_max": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "rank": 64,
+  "alpha": 64,
+  "target_suffixes": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj",
+    "out_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "target_module_count": 192,
+  "params_per_adapter": 150798336,
+  "weights": "untrained seeded random (std 0.01), bf16",
+  "adapters": [
+    {
+      "name": "cap-r64-01",
+      "bytes": 301657704,
+      "sha256": "592f7d68f6a04221c62215abaa818b2d00a9b2172e0f74536409f5bf69cee204"
+    },
+    {
+      "name": "cap-r64-02",
+      "bytes": 301657704,
+      "sha256": "673b1e46afeacc0a1edced33a6b92c273d7738ed4862349a539e31af4d711fb8"
+    },
+    {
+      "name": "cap-r64-03",
+      "bytes": 301657704,
+      "sha256": "99aa5d13a913d632746bfedb73626886e9e06a73a2df59536f26f2e23d77cbe0"
+    },
+    {
+      "name": "cap-r64-04",
+      "bytes": 301657704,
+      "sha256": "264ae68e130fd9607d1ab2d2389f05673c1b1a16a6c5d1a82f81681e9dc09ca2"
+    },
+    {
+      "name": "cap-r64-05",
+      "bytes": 301657704,
+      "sha256": "50da7e5822d00044348b378309ba38c37681282c53ed8bdcecf0c15c676aab80"
+    },
+    {
+      "name": "cap-r64-06",
+      "bytes": 301657704,
+      "sha256": "204d3914bb7a8fb58ce373a5fc6e5c284de7701937532bc50be4fdcb109ec7d2"
+    },
+    {
+      "name": "cap-r64-07",
+      "bytes": 301657704,
+      "sha256": "c5fe0456d4c004fabffbede695f2f305b8ef741d89c52c0bf8396aae5de59cf1"
+    },
+    {
+      "name": "cap-r64-08",
+      "bytes": 301657704,
+      "sha256": "0d16c0b0d7f83b8a03cd8b13d0df4c58b17898298d391a40277d36cf80c57c17"
+    },
+    {
+      "name": "cap-r64-09",
+      "bytes": 301657704,
+      "sha256": "f10696d609cdb6289170c54f6d9229ebdb38895972bf2249d95dd3510df80614"
+    },
+    {
+      "name": "cap-r64-10",
+      "bytes": 301657704,
+      "sha256": "0ba712328016129336fcdaefad89e055ca04656b0c74a5d1a16d43171f03bab0"
+    },
+    {
+      "name": "cap-r64-11",
+      "bytes": 301657704,
+      "sha256": "9ab1973340939fd40a7ef3358c04d760216de41329752033c94806f0ec115aaa"
+    },
+    {
+      "name": "cap-r64-12",
+      "bytes": 301657704,
+      "sha256": "5f7717c51c9a747f6a40064682187a54a401159ad7e2ffe8367c729601ce0436"
+    },
+    {
+      "name": "cap-r64-13",
+      "bytes": 301657704,
+      "sha256": "d7501d4c6f0b9f621966e1578234d106d5f3d6d9f6ec4983954e4c6f245e83b1"
+    },
+    {
+      "name": "cap-r64-14",
+      "bytes": 301657704,
+      "sha256": "29a44ce6db3be002ce13fa9b4aed97b04c90174d587a14fdd1e2832481ada326"
+    },
+    {
+      "name": "cap-r64-15",
+      "bytes": 301657704,
+      "sha256": "e1ea890a657707e36e922fdfd699d2bf8bdd6ce9b3e33d786773be8b96a9e200"
+    },
+    {
+      "name": "cap-r64-16",
+      "bytes": 301657704,
+      "sha256": "3214466abd02cc43558219a68e421b41cb6fdff4ad534de17fc0598f5dca50f5"
+    }
+  ]
+}

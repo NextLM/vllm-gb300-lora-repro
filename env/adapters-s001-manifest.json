@@ -1,0 +1,24 @@
+{
+  "rank": 256,
+  "alpha": 128,
+  "target_suffixes": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj",
+    "out_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "target_module_count": 192,
+  "params_per_adapter": 603193344,
+  "weights": "untrained seeded random (std 0.001), bf16",
+  "adapters": [
+    {
+      "name": "cap-s001-01",
+      "bytes": 1206448456,
+      "sha256": "d5fc4a66078c189d882314642cf2107a5e012cbdf1e06767a13db39a230d6096"
+    }
+  ]
+}

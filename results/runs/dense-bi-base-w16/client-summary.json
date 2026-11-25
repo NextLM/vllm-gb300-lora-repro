@@ -1,0 +1,85 @@
+{
+  "target_prompt_tokens": 3072,
+  "target_output_tokens": 512,
+  "rounds": 12,
+  "mode": "ctx",
+  "workers": 16,
+  "models": [
+    "llama32"
+  ],
+  "requests": 192,
+  "valid_requests": 192,
+  "failed_requests": 0,
+  "requests_with_retry": 0,
+  "errors_sample": [],
+  "wall_seconds": 71.5157077149488,
+  "requests_per_second": 2.6847248826129784,
+  "predictions_per_second": 0.0,
+  "input_tokens": 589824,
+  "output_tokens": 98304,
+  "input_tokens_per_second": 8247.47483938707,
+  "output_tokens_per_second": 1374.579139897845,
+  "request_latency_seconds": {
+    "p50": 5.956393474130891,
+    "p95": 5.974154993507545,
+    "p99": 6.039814409639221,
+    "mean": 5.9577143912392785,
+    "max": 6.139241752913222,
+    "n": 192
+  },
+  "ttft_seconds": {
+    "p50": 0.3487430864479393,
+    "p95": 0.46086373617872595,
+    "p99": 0.5566375948488714,
+    "mean": 0.3500704841790139,
+    "max": 0.5991555489599705,
+    "n": 192
+  },
+  "mean_inter_token_latency_seconds_per_request": {
+    "p50": 0.010971137589033248,
+    "p95": 0.011485834237882492,
+    "p99": 0.011490388969091585,
+    "mean": 0.010973671681632912,
+    "max": 0.011491297017473093,
+    "n": 192
+  },
+  "inter_token_gap_seconds_pooled_chunks": {
+    "p50": 0.010541731026023626,
+    "p95": 0.01072010095231235,
+    "p99": 0.011682979888282716,
+    "mean": 0.010973671681632912,
+    "max": 0.18854622193612158,
+    "n": 98112
+  },
+  "prompt_tokens_per_request": {
+    "min": 3072,
+    "max": 3072
+  },
+  "completion_tokens_per_request": {
+    "min": 512,
+    "max": 512
+  },
+  "client_peak_requests_in_flight": 16,
+  "server_requests_running": {
+    "max": 16.0,
+    "fraction_of_samples_at_or_above_workers": 0.8888888888888888,
+    "samples": 72
+  },
+  "server_kv_cache_usage_fraction": {
+    "max": 0.0946845609214837,
+    "mean": 0.08386904552232673
+  },
+  "sustained_60s_windows": {
+    "full_windows": 1,
+    "requests_per_second_min_median_max": [
+      2.6666666666666665,
+      2.6666666666666665,
+      2.6666666666666665
+    ],
+    "output_tokens_per_second_min_median_max": [
+      1365.3333333333333,
+      1365.3333333333333,
+      1365.3333333333333
+    ]
+  }
+}

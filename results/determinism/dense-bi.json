@@ -1,0 +1,498 @@
+[
+ {
+  "model": "sql",
+  "prompt": "long-argparse-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   237
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7"
+  ],
+  "seconds": 59.5
+ },
+ {
+  "model": "sql",
+  "prompt": "long-argparse-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   237
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7"
+  ],
+  "seconds": 5.5
+ },
+ {
+  "model": "sql",
+  "prompt": "long-subprocess-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b"
+  ],
+  "seconds": 66.0
+ },
+ {
+  "model": "sql",
+  "prompt": "long-subprocess-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b",
+   "2e21d877f23c6d2b"
+  ],
+  "seconds": 6.1
+ },
+ {
+  "model": "sql",
+  "prompt": "mid-textwrap-8k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787"
+  ],
+  "seconds": 49.6
+ },
+ {
+  "model": "sql",
+  "prompt": "mid-textwrap-8k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787",
+   "ebf50405b27c8787"
+  ],
+  "seconds": 3.5
+ },
+ {
+  "model": "sql",
+  "prompt": "short",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   89
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3"
+  ],
+  "seconds": 15.1
+ },
+ {
+  "model": "sql",
+  "prompt": "short",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   89
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3",
+   "88b69e8ef19bc4d3"
+  ],
+  "seconds": 0.9
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-argparse-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   110
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455"
+  ],
+  "seconds": 24.6
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-argparse-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   110
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455",
+   "cabda7419c46c455"
+  ],
+  "seconds": 2.7
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-subprocess-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da"
+  ],
+  "seconds": 57.4
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-subprocess-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da"
+  ],
+  "seconds": 4.9
+ },
+ {
+  "model": "llama32",
+  "prompt": "mid-textwrap-8k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded"
+  ],
+  "seconds": 41.4
+ },
+ {
+  "model": "llama32",
+  "prompt": "mid-textwrap-8k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded",
+   "56f224d6495b4ded"
+  ],
+  "seconds": 2.8
+ },
+ {
+  "model": "llama32",
+  "prompt": "short",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   99
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9"
+  ],
+  "seconds": 13.7
+ },
+ {
+  "model": "llama32",
+  "prompt": "short",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   99
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9"
+  ],
+  "seconds": 0.8
+ }
+]

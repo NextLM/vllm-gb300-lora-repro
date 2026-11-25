@@ -1,0 +1,100 @@
+{
+  "target_prompt_tokens": 3072,
+  "target_output_tokens": 512,
+  "rounds": 25,
+  "mode": "ctx",
+  "workers": 16,
+  "models": [
+    "cap-r256-01",
+    "cap-r256-02",
+    "cap-r256-03",
+    "cap-r256-04",
+    "cap-r256-05",
+    "cap-r256-06",
+    "cap-r256-07",
+    "cap-r256-08",
+    "cap-r256-09",
+    "cap-r256-10",
+    "cap-r256-11",
+    "cap-r256-12",
+    "cap-r256-13",
+    "cap-r256-14",
+    "cap-r256-15",
+    "cap-r256-16"
+  ],
+  "requests": 400,
+  "valid_requests": 400,
+  "failed_requests": 0,
+  "requests_with_retry": 0,
+  "errors_sample": [],
+  "wall_seconds": 254.04084660997614,
+  "requests_per_second": 1.5745499408373176,
+  "predictions_per_second": 0.0,
+  "input_tokens": 1228800,
+  "output_tokens": 204800,
+  "input_tokens_per_second": 4837.01741825224,
+  "output_tokens_per_second": 806.1695697087066,
+  "request_latency_seconds": {
+    "p50": 9.543846916523762,
+    "p95": 12.486135102284605,
+    "p99": 14.36581343628697,
+    "mean": 9.96722271000559,
+    "max": 22.93228040309623,
+    "n": 400
+  },
+  "ttft_seconds": {
+    "p50": 0.37170565011911094,
+    "p95": 0.8192742150393276,
+    "p99": 3.351009317506105,
+    "mean": 0.5359807677788194,
+    "max": 3.351405591936782,
+    "n": 400
+  },
+  "mean_inter_token_latency_seconds_per_request": {
+    "p50": 0.01777714807717877,
+    "p95": 0.023283367734488986,
+    "p99": 0.02707886177086434,
+    "mean": 0.018456053568290387,
+    "max": 0.04415269409590665,
+    "n": 400
+  },
+  "inter_token_gap_seconds_pooled_chunks": {
+    "p50": 0.010946133377728984,
+    "p95": 0.057736169212148525,
+    "p99": 0.2188544952403757,
+    "mean": 0.02253838303962181,
+    "max": 0.9961347980424762,
+    "n": 57268
+  },
+  "prompt_tokens_per_request": {
+    "min": 3072,
+    "max": 3072
+  },
+  "completion_tokens_per_request": {
+    "min": 512,
+    "max": 512
+  },
+  "client_peak_requests_in_flight": 16,
+  "server_requests_running": {
+    "max": 16.0,
+    "fraction_of_samples_at_or_above_workers": 0.5612648221343873,
+    "samples": 253
+  },
+  "server_kv_cache_usage_fraction": {
+    "max": 0.17824933687002653,
+    "mean": 0.16816556756586742
+  },
+  "sustained_60s_windows": {
+    "full_windows": 4,
+    "requests_per_second_min_median_max": [
+      1.45,
+      1.5666666666666667,
+      1.6
+    ],
+    "output_tokens_per_second_min_median_max": [
+      742.4,
+      802.1333333333333,
+      819.2
+    ]
+  }
+}

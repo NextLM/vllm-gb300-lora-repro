@@ -1,0 +1,3 @@
+(APIServer pid=351799) INFO 11-25 06:26:19 [startup.py:96] non-default args: {'model_tag': '~/bench/model-view', 'host': '127.0.0.1', 'model': '~/bench/model-view', 'trust_remote_code': True, 'max_model_len': 32768, 'served_model_name': ['nemotron-super-vl-fp8'], 'gpu_memory_utilization': 0.89, 'enable_prefix_caching': False, 'limit_mm_per_prompt': {'image': 0, 'video': 0, 'audio': 0}, 'enable_lora': True, 'max_loras': 16, 'max_lora_rank': 256, 'lora_target_modules': ['qkv_proj', 'q_proj', 'k_proj', 'v_proj', 'o_proj', 'in_proj', 'out_proj', 'up_proj', 'down_proj']}
+(EngineCore pid=352013) ERROR 11-25 06:27:12 [core.py:1757] RuntimeError: VLLM batch_invariant mode is not supported for MAMBA2_ATTN.
+RuntimeError: VLLM batch_invariant mode is not supported for MAMBA2_ATTN.

@@ -1,0 +1,22 @@
+{
+ "python": "3.12.3",
+ "stdlib": "/usr/lib/python3.12",
+ "prompts": {
+  "long-argparse-30k": {
+   "chars": 30058,
+   "sha256": "be386eb7773ba611f18cc24d9496059fe326473cdf834ceaab85dd7ffa4dea21"
+  },
+  "long-subprocess-30k": {
+   "chars": 30083,
+   "sha256": "67fdccb0142be8fc922a4bb51059818e4b618dbc263bd214be16869904933e80"
+  },
+  "mid-textwrap-8k": {
+   "chars": 8044,
+   "sha256": "f407898d27efd2388e6a6014b956a832afbc53c4988a0fc9c7375b50bc33ce26"
+  },
+  "short": {
+   "chars": 74,
+   "sha256": "cb80db9a8e2f1bfad23c374b4da25f9b80625ea549d8a743fc61e70081371f53"
+  }
+ }
+}

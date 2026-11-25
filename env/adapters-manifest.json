@@ -1,0 +1,99 @@
+{
+  "rank": 256,
+  "alpha": 128,
+  "target_suffixes": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj",
+    "out_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "target_module_count": 192,
+  "params_per_adapter": 603193344,
+  "weights": "untrained seeded random (std 0.01), bf16",
+  "adapters": [
+    {
+      "name": "cap-r256-01",
+      "bytes": 1206448456,
+      "sha256": "7c1f54cdab1c2468684d4719748c297a192323d76df0db120ff3231c734b954a"
+    },
+    {
+      "name": "cap-r256-02",
+      "bytes": 1206448456,
+      "sha256": "9f36fbc682cedb5bd69a5c7cfe9cfd26c083f0718af1179934efc2a3c886c50b"
+    },
+    {
+      "name": "cap-r256-03",
+      "bytes": 1206448456,
+      "sha256": "d67935342fd93da973e32611bfa67e66b28b1f895b65f449f080f3e221c21697"
+    },
+    {
+      "name": "cap-r256-04",
+      "bytes": 1206448456,
+      "sha256": "0c3554c49804c839cf266dd16075fbe38a20580a14b0bd0a208a0f2e02b5f01e"
+    },
+    {
+      "name": "cap-r256-05",
+      "bytes": 1206448456,
+      "sha256": "4e25d783ac76396a62c37233bb07c27aff226ff0ba2ff3400e794c41141ad232"
+    },
+    {
+      "name": "cap-r256-06",
+      "bytes": 1206448456,
+      "sha256": "b19eef75c29fe31ee3023b3cd0f1a71010a915c936a36fa8f954c955df6cd28d"
+    },
+    {
+      "name": "cap-r256-07",
+      "bytes": 1206448456,
+      "sha256": "394d75fd22628ceccdaa9ae6b89193a6c5cc80309d2a4531b1ae36674cd0848a"
+    },
+    {
+      "name": "cap-r256-08",
+      "bytes": 1206448456,
+      "sha256": "6845ec0f7b93bc2111d42174697a808487692626d6dc2f36b687c109cdb0f59a"
+    },
+    {
+      "name": "cap-r256-09",
+      "bytes": 1206448456,
+      "sha256": "2494516e4afd05efd07baf375e24b7ef911fc1aa1b863db7b3b208d3a5387816"
+    },
+    {
+      "name": "cap-r256-10",
+      "bytes": 1206448456,
+      "sha256": "f70d0f4140b29a6ac2b5d0b52493bdc26f1cc38af89c2beb5ecddd464809545e"
+    },
+    {
+      "name": "cap-r256-11",
+      "bytes": 1206448456,
+      "sha256": "b9109857fdc8ff638145744b9eb909f43c98409bb0a5ee73ffa89dcc7aec2d2b"
+    },
+    {
+      "name": "cap-r256-12",
+      "bytes": 1206448456,
+      "sha256": "2d1e5555d60b14cf717927bfc3fce51dba0b16e6d8813e5ee49a1afb3a5463c7"
+    },
+    {
+      "name": "cap-r256-13",
+      "bytes": 1206448456,
+      "sha256": "d61d38fb6cba426730c80d38d6e62ea0b732086e2c588eab2cf4f290dfecf26e"
+    },
+    {
+      "name": "cap-r256-14",
+      "bytes": 1206448456,
+      "sha256": "8e4cc665efd717c5d2e2094dc1e62677fabd77ba27687febc94cbbec7bd91acf"
+    },
+    {
+      "name": "cap-r256-15",
+      "bytes": 1206448456,
+      "sha256": "1e540176857a9a209696e307034aaacd5d0ddb823112a8a046d84ae68c56e47b"
+    },
+    {
+      "name": "cap-r256-16",
+      "bytes": 1206448456,
+      "sha256": "938e69e0fcfdfa572a61cf633553cd7e33fddd80fb4065c8cd6491aa6c331c16"
+    }
+  ]
+}

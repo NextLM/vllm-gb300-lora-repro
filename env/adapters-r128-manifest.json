@@ -1,0 +1,99 @@
+{
+  "rank": 128,
+  "alpha": 91,
+  "target_suffixes": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj",
+    "out_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "target_module_count": 192,
+  "params_per_adapter": 301596672,
+  "weights": "untrained seeded random (std 0.01), bf16",
+  "adapters": [
+    {
+      "name": "cap-r128-01",
+      "bytes": 603254912,
+      "sha256": "be538c31f76bebb29003194e5f608131503a819c10ba2d8be5589a4f26713e0d"
+    },
+    {
+      "name": "cap-r128-02",
+      "bytes": 603254912,
+      "sha256": "664dc9802f11388adbd04c59a8019de672d2bc68ead839c16db83fe892e6ace0"
+    },
+    {
+      "name": "cap-r128-03",
+      "bytes": 603254912,
+      "sha256": "699d87943be554fc0221aa6c68f8393ebf5eda0e549d80f6d529aa08b3afaf71"
+    },
+    {
+      "name": "cap-r128-04",
+      "bytes": 603254912,
+      "sha256": "21169267ec3aa814cb2c48e4fb8d9bac8dc1862beb8f7f751cc6fbe2f0b3f83b"
+    },
+    {
+      "name": "cap-r128-05",
+      "bytes": 603254912,
+      "sha256": "059b78d9fb63c0149d3ef5377925de6c26f65435d0b6d407b65c08aaf23a4edc"
+    },
+    {
+      "name": "cap-r128-06",
+      "bytes": 603254912,
+      "sha256": "29921e95eabbc7ee6f3098505cb305403ac9be722d59b4b250cb8a1040af7a3f"
+    },
+    {
+      "name": "cap-r128-07",
+      "bytes": 603254912,
+      "sha256": "369a9509ac94ed0e5aa0d1a267cd22b6d9fc4e499216fe5f39373f2c549206ed"
+    },
+    {
+      "name": "cap-r128-08",
+      "bytes": 603254912,
+      "sha256": "0b92a4f4eee95e66c06e543cd7932eff203a908a2c1c1aa3d191e46bfa73bd40"
+    },
+    {
+      "name": "cap-r128-09",
+      "bytes": 603254912,
+      "sha256": "819bf89c7d67c61de876060cc4724db3553a82c44ff59ff36890deae6bf3dc05"
+    },
+    {
+      "name": "cap-r128-10",
+      "bytes": 603254912,
+      "sha256": "12970e6f3fff268517b0ae1a7d1d76431e8b2a8976a10efaba5f2ca4550cf23f"
+    },
+    {
+      "name": "cap-r128-11",
+      "bytes": 603254912,
+      "sha256": "c356c059902e11330bf0f5d3c6482ab5e46b58bc6ec177f86fbc168bf48a1aa1"
+    },
+    {
+      "name": "cap-r128-12",
+      "bytes": 603254912,
+      "sha256": "72ef315bc47d1f77f9d2476c76d1073b4e60e866336ee55b789708071b98d88d"
+    },
+    {
+      "name": "cap-r128-13",
+      "bytes": 603254912,
+      "sha256": "7f0bca4185af629df2ae8c089d1acd52658b3e4378219075cbd41c9bfe8c864c"
+    },
+    {
+      "name": "cap-r128-14",
+      "bytes": 603254912,
+      "sha256": "8dbe0fd7838e7feb71ef5024418003211510a37a2a1888df1e84ac1cf1e8afc7"
+    },
+    {
+      "name": "cap-r128-15",
+      "bytes": 603254912,
+      "sha256": "5d3951443e9fc1f27eb3080acf3420661afb0a82113a7c589afc734373167a2a"
+    },
+    {
+      "name": "cap-r128-16",
+      "bytes": 603254912,
+      "sha256": "4de04060898110301ab70bfda449c5af3715317e348ab2ac02b6a7ca53d34ee4"
+    }
+  ]
+}

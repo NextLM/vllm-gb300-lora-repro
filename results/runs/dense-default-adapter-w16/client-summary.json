@@ -1,0 +1,77 @@
+{
+  "target_prompt_tokens": 3072,
+  "target_output_tokens": 512,
+  "rounds": 12,
+  "mode": "ctx",
+  "workers": 16,
+  "models": [
+    "sql"
+  ],
+  "requests": 192,
+  "valid_requests": 192,
+  "failed_requests": 0,
+  "requests_with_retry": 0,
+  "errors_sample": [],
+  "wall_seconds": 32.751129154115915,
+  "requests_per_second": 5.86239329632001,
+  "predictions_per_second": 0.0,
+  "input_tokens": 589824,
+  "output_tokens": 98304,
+  "input_tokens_per_second": 18009.27220629507,
+  "output_tokens_per_second": 3001.5453677158453,
+  "request_latency_seconds": {
+    "p50": 2.7280014420393854,
+    "p95": 2.734510280250106,
+    "p99": 2.8125833509792573,
+    "mean": 2.7283826242079763,
+    "max": 2.812635748879984,
+    "n": 192
+  },
+  "ttft_seconds": {
+    "p50": 0.3504402401158586,
+    "p95": 0.47844010600820186,
+    "p99": 0.5356462003756315,
+    "mean": 0.35623703281089547,
+    "max": 0.5359818970318884,
+    "n": 192
+  },
+  "mean_inter_token_latency_seconds_per_request": {
+    "p50": 0.004651410474647894,
+    "p95": 0.0051568771523620325,
+    "p99": 0.005160737737927607,
+    "mean": 0.00464197753343478,
+    "max": 0.0052141526298426135,
+    "n": 192
+  },
+  "inter_token_gap_seconds_pooled_chunks": {
+    "p50": 0.004319964908063412,
+    "p95": 0.004389373119920492,
+    "p99": 0.005496873429510748,
+    "mean": 0.004643582378074675,
+    "max": 0.17122781299985945,
+    "n": 97660
+  },
+  "prompt_tokens_per_request": {
+    "min": 3072,
+    "max": 3072
+  },
+  "completion_tokens_per_request": {
+    "min": 512,
+    "max": 512
+  },
+  "client_peak_requests_in_flight": 16,
+  "server_requests_running": {
+    "max": 16.0,
+    "fraction_of_samples_at_or_above_workers": 0.8181818181818182,
+    "samples": 33
+  },
+  "server_kv_cache_usage_fraction": {
+    "max": 0.0963959117805272,
+    "mean": 0.08033970691313351
+  },
+  "sustained_60s_windows": {
+    "full_windows": 0,
+    "requests_per_second_min_median_max": null,
+    "output_tokens_per_second_min_median_max": null
+  }
+}

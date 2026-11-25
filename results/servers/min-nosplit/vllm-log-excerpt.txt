@@ -1,0 +1,5 @@
+(APIServer pid=349634) INFO 11-25 06:12:29 [startup.py:96] non-default args: {'model_tag': '~/bench/model-view', 'host': '127.0.0.1', 'model': '~/bench/model-view', 'trust_remote_code': True, 'max_model_len': 32768, 'served_model_name': ['nemotron-super-vl-fp8'], 'gpu_memory_utilization': 0.89, 'enable_prefix_caching': False, 'limit_mm_per_prompt': {'image': 0, 'video': 0, 'audio': 0}, 'enable_lora': True, 'max_loras': 16, 'max_lora_rank': 256, 'lora_target_modules': ['qkv_proj', 'q_proj', 'k_proj', 'v_proj', 'o_proj', 'in_proj', 'out_proj', 'up_proj', 'down_proj']}
+(EngineCore pid=349848) INFO 11-25 06:13:21 [utils.py:185] Using tuned LoRA kernel configs from ~/bench/tune/configs-nosplit-full/NVIDIA_GB300_SHRINK.json.
+(EngineCore pid=349848) INFO 11-25 06:13:22 [utils.py:185] Using tuned LoRA kernel configs from ~/bench/tune/configs-nosplit-full/NVIDIA_GB300_EXPAND_TRUE.json.
+(EngineCore pid=349848) INFO 11-25 06:13:27 [gpu_worker.py:795] Available KV cache memory: 76.58 GiB
+(EngineCore pid=349848) INFO 11-25 06:16:11 [model_runner.py:1216] Graph capturing finished in 159 secs, took 3.55 GiB
