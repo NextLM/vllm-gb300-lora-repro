@@ -6,6 +6,7 @@
 | Split-K cap, PR 61087 (3 runs) | 1.236 to 1.257 | 22.2 to 22.4 | 1.639 to 1.670 | 0.426 to 0.435 | 2.966 to 2.969 | 697 to 699 | 16, 16, 16, 16 | 1, 1, 1, 1 |
 | Tuned, split on | 1.632 | 17.4 | 1.989 | 0.497 | 2.967 | 752 | 16, 16, 15, 16 | 1, 1, 1, 1 |
 | Tuned, split_k=1 | 1.575 | 17.8 | 1.918 | 0.446 | 2.963 | 742 | 1, 1, 1, 1 | 1, 1, 1, 1 |
+| Fixed-order shrink reduce, LoRA op only (`KV_LORA_DET=1`, default blocks, 1 run) | 1.276 | 22.1 | 1.615 | 0.439 | 2.968 | 691 | 1, 1, 1, 1 | 1, 1, 1, 1 |
 | Nightly 2d08d35d4, default | 0.991 | 28.2 | 1.452 | 0.333 | 2.951 | 624 | 16, 15, 15, 15 | 1, 1, 1, 1 |
 | Nightly 2d08d35d4, tuned split_k=1 | 1.578 | 17.9 | 1.852 | 0.441 | 2.975 | 740 | 1, 1, 1, 1 | 1, 1, 1, 1 |
 
@@ -37,5 +38,8 @@ Median-one-adapter-w1: default 0.339, cap 0.430 (+27%).
 | dense-cap | 5.777 | 4.7 | 3.8 | 9.322 | 3.0 | 7, 9, 13, 3 | 6, 9, 11, 7 | 1, 1, 1, 1 | 3, 2, 4, 1 |
 | dense-split1 | 3.869 | 7.4 | 6.5 | 9.311 | 3.0 | 1, 1, 1, 1 | 6, 5, 3, 2 | 1, 1, 1, 1 | 3, 2, 4, 1 |
 | dense-bi | 2.219 | 13.0 | 12.9 | 2.685 | 11.0 | 1, 1, 1, 1 | 1, 1, 1, 1 | 1, 1, 1, 1 | 1, 1, 1, 1 |
+| dense-det (fixed-order shrink reduce, LoRA op only) | 5.424 | 5.1 | 4.1 | 9.330 | 3.0 | 1, 1, 1, 1 | 7, 4, 4, 2 | 1, 1, 1, 1 | 3, 2, 4, 1 |
+
+The `det` arms enable the fixed-order split-K reduce that `VLLM_BATCH_INVARIANT=1` uses (PR 59377) for the LoRA shrink op only, through a local switch (`scripts/patch_det.py`); global batch-invariant mode stays off. A third arm combining it with the tuned block sizes did not start: the path forces `BLOCK_K=256`, and with the tuned `block_m`/`block_n` Triton ran out of shared memory.
 
 Runs with any invalid request: none.

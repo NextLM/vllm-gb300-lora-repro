@@ -1,0 +1,3 @@
+VLLM_BIN=$HOME/kv/venv034/bin/vllm
+VLLM_NO_USAGE_STATS=1
+KV_LORA_DET=1

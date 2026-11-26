@@ -24,6 +24,7 @@ Everything here is public material: a public checkpoint, public or synthetic ada
 - `chain_min.sh`: minimal launch command, speculative decoding off
 - `chain_var.sh`: repeat runs of default and cap, and the pair without speculative decoding
 - `chain_dense.sh`: Llama-3.2-3B with the trained adapter
+- `chain_det.sh`, `patch_det.py`: fixed-order shrink reduce enabled for the LoRA op only (local switch `KV_LORA_DET=1` in the 0.34.0 wheel)
 - `logcfg.py`: records the kernel settings vLLM resolves under each arm's environment
 - `xfer.py`, `shapes.py`: kernel-level timing of shrink/expand across model shapes
 - The split-K cap arm applies the one changed line of PR 61087 to the installed 0.34.0 wheel behind the environment switch `KV_CAP_SPLITK=1`.
