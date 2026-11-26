@@ -1,0 +1,4 @@
+VLLM_BIN=$HOME/kv/venv034/bin/vllm
+VLLM_BATCH_INVARIANT=1
+VLLM_NO_USAGE_STATS=1
+vllm package: $HOME/kv/pr70197/vllm/__init__.py 0.34.0

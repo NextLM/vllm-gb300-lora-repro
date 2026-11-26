@@ -42,4 +42,17 @@ Median-one-adapter-w1: default 0.339, cap 0.430 (+27%).
 
 The `det` arms enable the fixed-order split-K reduce that `VLLM_BATCH_INVARIANT=1` uses (PR 59377) for the LoRA shrink op only, through a local switch (`scripts/patch_det.py`); global batch-invariant mode stays off. A third arm combining it with the tuned block sizes did not start: the path forces `BLOCK_K=256`, and with the tuned `block_m`/`block_n` Triton ran out of shared memory.
 
+## PR 70197 (`--lora-split-k-reduction`), its `vllm/` changes at ca6e2b9 applied to the 0.34.0 wheel, one run per arm
+
+| Arm | Adapter req/s (w16) | Adapter w1 req/s | Base w16 req/s | Adapter distinct of 16, one at a time | together | Base one at a time | together |
+|---|---|---|---|---|---|---|---|
+| dense-pr-kernel (`kernel`) | 5.429 | 0.464 | 9.321 | 1, 1, 1, 1 | 7, 4, 3, 2 | 1, 1, 1, 1 | 3, 2, 3, 1 |
+| dense-pr-atomic (`atomic`, probe only) | | | | 7, 9, 10, 6 | 8, 9, 7, 5 | 1, 1, 1, 1 | 3, 2, 4, 1 |
+| dense-pr-kernel-tuned (`kernel` + tuned folder, probe only) | | | | 5, 1, 6, 6 | 11, 4, 6, 2 | 1, 1, 1, 1 | 3, 2, 4, 1 |
+| dense-pr-bi (`VLLM_BATCH_INVARIANT=1`, probe only) | | | | 1, 1, 1, 1 | 1, 1, 1, 1 | 1, 1, 1, 1 | 1, 1, 1, 1 |
+| dense-pr-bi-tuned (`VLLM_BATCH_INVARIANT=1` + tuned folder, probe only) | | | | 5, 2, 10, 4 | 4, 2, 4, 3 | 1, 1, 1, 1 | 1, 1, 1, 1 |
+| pub-pr-kernel (Nemotron, `kernel`): mixed 1.287, one adapter w16 1.607 | | 0.406 | 2.935 | 1, 1, 1, 1 | 12, 13, 4, 2 | 1, 1, 1, 1 | 12, 14, 4, 2 |
+
+The tuned folder in these arms is `configs/gb300-nemotron-speed/`. The PR's unit-test file `tests/lora/test_lora_shrink_batch_invariant.py` passed on the same GPU (18 passed).
+
 Runs with any invalid request: none.

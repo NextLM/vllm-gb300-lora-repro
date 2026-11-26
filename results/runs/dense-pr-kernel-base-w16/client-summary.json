@@ -1,0 +1,77 @@
+{
+  "target_prompt_tokens": 3072,
+  "target_output_tokens": 512,
+  "rounds": 12,
+  "mode": "ctx",
+  "workers": 16,
+  "models": [
+    "llama32"
+  ],
+  "requests": 192,
+  "valid_requests": 192,
+  "failed_requests": 0,
+  "requests_with_retry": 0,
+  "errors_sample": [],
+  "wall_seconds": 20.597751850029454,
+  "requests_per_second": 9.321405627076988,
+  "predictions_per_second": 0.0,
+  "input_tokens": 589824,
+  "output_tokens": 98304,
+  "input_tokens_per_second": 28635.358086380507,
+  "output_tokens_per_second": 4772.559681063418,
+  "request_latency_seconds": {
+    "p50": 1.7148833845276386,
+    "p95": 1.725535494252108,
+    "p99": 1.7357327025546692,
+    "mean": 1.715774691668533,
+    "max": 1.7360512129962444,
+    "n": 192
+  },
+  "ttft_seconds": {
+    "p50": 0.19421164051163942,
+    "p95": 0.21669524242170154,
+    "p99": 0.23509797405218705,
+    "mean": 0.1607463985759144,
+    "max": 0.23572617792524397,
+    "n": 192
+  },
+  "mean_inter_token_latency_seconds_per_request": {
+    "p50": 0.002973803010798349,
+    "p95": 0.0032824808584959947,
+    "p99": 0.0032878157664172412,
+    "mean": 0.0030429296803274955,
+    "max": 0.003290666050848108,
+    "n": 192
+  },
+  "inter_token_gap_seconds_pooled_chunks": {
+    "p50": 0.0029279158916324377,
+    "p95": 0.003017995972186327,
+    "p99": 0.0035695282230153625,
+    "mean": 0.0030452021392007663,
+    "max": 0.07432817504741251,
+    "n": 98000
+  },
+  "prompt_tokens_per_request": {
+    "min": 3072,
+    "max": 3072
+  },
+  "completion_tokens_per_request": {
+    "min": 512,
+    "max": 512
+  },
+  "client_peak_requests_in_flight": 16,
+  "server_requests_running": {
+    "max": 16.0,
+    "fraction_of_samples_at_or_above_workers": 0.8571428571428571,
+    "samples": 21
+  },
+  "server_kv_cache_usage_fraction": {
+    "max": 0.0963959117805272,
+    "mean": 0.08059120366812676
+  },
+  "sustained_60s_windows": {
+    "full_windows": 0,
+    "requests_per_second_min_median_max": null,
+    "output_tokens_per_second_min_median_max": null
+  }
+}

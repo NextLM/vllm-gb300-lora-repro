@@ -1,0 +1,498 @@
+[
+ {
+  "model": "sql",
+  "prompt": "long-argparse-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   237
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7"
+  ],
+  "seconds": 58.9
+ },
+ {
+  "model": "sql",
+  "prompt": "long-argparse-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   237
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7",
+   "02fce55b9541bfc7"
+  ],
+  "seconds": 5.5
+ },
+ {
+  "model": "sql",
+  "prompt": "long-subprocess-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f"
+  ],
+  "seconds": 65.3
+ },
+ {
+  "model": "sql",
+  "prompt": "long-subprocess-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f",
+   "813a553aefa8870f"
+  ],
+  "seconds": 6.0
+ },
+ {
+  "model": "sql",
+  "prompt": "mid-textwrap-8k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e"
+  ],
+  "seconds": 48.9
+ },
+ {
+  "model": "sql",
+  "prompt": "mid-textwrap-8k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e",
+   "8e911a399bde653e"
+  ],
+  "seconds": 3.5
+ },
+ {
+  "model": "sql",
+  "prompt": "short",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   94
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a"
+  ],
+  "seconds": 15.7
+ },
+ {
+  "model": "sql",
+  "prompt": "short",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   94
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a",
+   "7f6212d22a188d6a"
+  ],
+  "seconds": 1.0
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-argparse-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   110
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0"
+  ],
+  "seconds": 24.3
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-argparse-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6206,
+  "completion_tokens": [
+   110
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0",
+   "ae96973808d830a0"
+  ],
+  "seconds": 2.7
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-subprocess-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da"
+  ],
+  "seconds": 56.8
+ },
+ {
+  "model": "llama32",
+  "prompt": "long-subprocess-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6773,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da",
+   "38a51fc80256e7da"
+  ],
+  "seconds": 4.9
+ },
+ {
+  "model": "llama32",
+  "prompt": "mid-textwrap-8k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850"
+  ],
+  "seconds": 40.8
+ },
+ {
+  "model": "llama32",
+  "prompt": "mid-textwrap-8k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 1947,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850",
+   "9d67104002b70850"
+  ],
+  "seconds": 2.8
+ },
+ {
+  "model": "llama32",
+  "prompt": "short",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   99
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9"
+  ],
+  "seconds": 13.5
+ },
+ {
+  "model": "llama32",
+  "prompt": "short",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 48,
+  "completion_tokens": [
+   99
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9",
+   "6ba4a38aeb996ab9"
+  ],
+  "seconds": 0.8
+ }
+]

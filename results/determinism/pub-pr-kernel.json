@@ -1,0 +1,498 @@
+[
+ {
+  "model": "cap-r256-01",
+  "prompt": "long-argparse-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6524,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22",
+   "6f4864b645d19a22"
+  ],
+  "seconds": 29.8
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "long-argparse-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6524,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 12,
+  "largest_group": 2,
+  "hashes": [
+   "a9d81393310fa3a5",
+   "986b30195da3c6b7",
+   "986b30195da3c6b7",
+   "f70bd4f41c56f94b",
+   "57294627ede7664e",
+   "57294627ede7664e",
+   "288c5493ba879638",
+   "8336cd163f70b940",
+   "e4d97f1ca060f80e",
+   "d399802981a3a6e1",
+   "d399802981a3a6e1",
+   "71efb82712ff947d",
+   "96509641c03ae52a",
+   "0f62a877bfb8bcce",
+   "7b5878396bc89c45",
+   "7b5878396bc89c45"
+  ],
+  "seconds": 13.5
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "long-subprocess-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 7110,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa",
+   "95e391e4f70674aa"
+  ],
+  "seconds": 30.2
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "long-subprocess-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 7110,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 13,
+  "largest_group": 2,
+  "hashes": [
+   "95c766cbc84c3949",
+   "c08ee64d7c1b449b",
+   "e972100716a4397b",
+   "c08ee64d7c1b449b",
+   "a9c2c17e898cc3f3",
+   "8b2d6b007b2b928c",
+   "bd46337119319c34",
+   "9fcdf31141c72339",
+   "491e4287beaf2e40",
+   "491e4287beaf2e40",
+   "7342502914188860",
+   "41ca26761871391b",
+   "a75fcf2e8268b97d",
+   "86c80d6995cf36df",
+   "2de22e2d5bf647ee",
+   "2de22e2d5bf647ee"
+  ],
+  "seconds": 14.4
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "mid-textwrap-8k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 2042,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3",
+   "e7ac803c8ea5d6b3"
+  ],
+  "seconds": 21.0
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "mid-textwrap-8k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 2042,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 4,
+  "largest_group": 8,
+  "hashes": [
+   "235cfeaae4f91403",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "f25b180eddb93449",
+   "423dccaadda68dc1",
+   "942ea1aeda82e768",
+   "942ea1aeda82e768",
+   "942ea1aeda82e768",
+   "942ea1aeda82e768",
+   "942ea1aeda82e768",
+   "942ea1aeda82e768"
+  ],
+  "seconds": 5.4
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "short",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 29,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2",
+   "67f20fe34bffe0c2"
+  ],
+  "seconds": 19.5
+ },
+ {
+  "model": "cap-r256-01",
+  "prompt": "short",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 29,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 2,
+  "largest_group": 15,
+  "hashes": [
+   "ac809d494ffe2d1f",
+   "3003e4635fc18d4d",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f",
+   "ac809d494ffe2d1f"
+  ],
+  "seconds": 2.0
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "long-argparse-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 6524,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11",
+   "5bd5f25ff17a1d11"
+  ],
+  "seconds": 16.5
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "long-argparse-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 6524,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 12,
+  "largest_group": 2,
+  "hashes": [
+   "a495fa2e2a1fd5d3",
+   "9abaa87d5e282fc6",
+   "9abaa87d5e282fc6",
+   "77a5860ac751f2bf",
+   "2c7e64479ceb468e",
+   "2c7e64479ceb468e",
+   "12c32cc3fb98b879",
+   "193531a787a8e580",
+   "131c5963ad856a0d",
+   "3eac996f3cbf2d1f",
+   "ec54c651f59d0bd3",
+   "3eac996f3cbf2d1f",
+   "41ad7f50f1ab3d92",
+   "e7c7d7eb60fb5c38",
+   "449db8a027bbcb6d",
+   "449db8a027bbcb6d"
+  ],
+  "seconds": 5.5
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "long-subprocess-30k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 7110,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44",
+   "b8d763d866a93e44"
+  ],
+  "seconds": 15.2
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "long-subprocess-30k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 7110,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 14,
+  "largest_group": 2,
+  "hashes": [
+   "62ebf230d65b2337",
+   "b331792e225f444b",
+   "b331792e225f444b",
+   "fc02202eb93d927a",
+   "0cd9ddc2e5f6e513",
+   "7980fd093b927ea5",
+   "ecc9813281af85d7",
+   "940f868a6ae1cd1d",
+   "25665e4a5334bb58",
+   "940f868a6ae1cd1d",
+   "f30597253591541f",
+   "1a4b6cb5750679ee",
+   "f6a4ad4ad0b2385a",
+   "ea557bac54f274a2",
+   "81e9f3c95c6c3f4b",
+   "b29f655cf2e5b375"
+  ],
+  "seconds": 5.9
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "mid-textwrap-8k",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 2042,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b",
+   "6a59e8f18fdede2b"
+  ],
+  "seconds": 13.6
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "mid-textwrap-8k",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 2042,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 4,
+  "largest_group": 8,
+  "hashes": [
+   "1b2c9a07e1e3e43d",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "7d1b1779613ef90c",
+   "1e44c2360050175e",
+   "4dc580f13fd777d4",
+   "4dc580f13fd777d4",
+   "4dc580f13fd777d4",
+   "4dc580f13fd777d4",
+   "4dc580f13fd777d4",
+   "4dc580f13fd777d4"
+  ],
+  "seconds": 2.6
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "short",
+  "mode": "sequential",
+  "repeats": 16,
+  "prompt_tokens": 29,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 1,
+  "largest_group": 16,
+  "hashes": [
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991",
+   "f4548e5d77bbd991"
+  ],
+  "seconds": 13.0
+ },
+ {
+  "model": "nemotron-super-vl-fp8",
+  "prompt": "short",
+  "mode": "concurrent",
+  "repeats": 16,
+  "prompt_tokens": 29,
+  "completion_tokens": [
+   256
+  ],
+  "distinct_outputs": 2,
+  "largest_group": 15,
+  "hashes": [
+   "63e5cbd4abf92e33",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615",
+   "7fe4f2c7a0d01615"
+  ],
+  "seconds": 1.5
+ }
+]
